@@ -1,0 +1,84 @@
+:host(){
+    --dark-blue:#0b0d21;
+    --light-white:#fafafa;
+    --light-blue:#4f7df9;
+    --light-pink:#f314ac;
+    --dull-blue:#1d1e33;
+    --size-16:16px;
+    --size-14:14px;
+    --size-12:12px;
+}
+
+
+.box{
+    text-align: center;
+    margin: auto;
+    max-width: 420px;
+    background:var(--dark-blue);
+    color: var(--light-white);
+    padding: var(--size-16);
+    border-radius: 30px;
+}
+.info-wrapper{
+    background: var(--dull-blue);
+    padding:varf(--size-16);
+    border-bottom-left-radius: 38px;
+    border-bottom-right-radius: 38px;
+    font-size: var(--size-14);
+    text-align: center;
+
+}
+.app{
+    min-height: 100vh;
+    background-image: url(/sfsites/c/resource/bmibg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}   
+h1{
+    font-size: 36px;
+    padding: 20px 0;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h2{
+    font-size: 26px;
+    color: var(--light-pink);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h3{
+    
+    font-size: large;
+    color:aqua;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.success{
+    color:rgb(119, 255, 119);
+}
+label{
+    font-size: 20px;
+    color: white;
+}
+input{
+    color: var(--dull-blue);
+    padding-right: 0px;
+    padding-left: 5px;
+    font-size: var(--size-16);
+}
+.custom-button{
+   font-size: var(--size-16);
+   padding: var(--size-12);
+   background: var(--light-pink);
+   color: var(--light-white);
+   border-color: var(--light-pink); 
+}
+.result-value{
+color: var(--light-blue);
+font-size: 30px;
+
+}
+.support{
+    text-align: center;
+    color: var(--dark-blue);
+}
